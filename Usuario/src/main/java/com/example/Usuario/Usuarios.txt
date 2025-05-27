@@ -1,0 +1,16 @@
+    {
+        "id": 1,
+        "rol": "CLIENTE",
+        "rut": "19191919",
+        "nombre": "Caremono",
+        "apellido": "Soto",
+        "email": "Jsonprueba@duocuc.cl"
+    }
+    {
+        "id": 2,
+        "rol": "EMPLEADO",
+        "rut": "19192229",
+        "nombre": "Job",
+        "apellido": "Toledo",
+        "email": "Jsonprueba@gmail.com"
+    }
