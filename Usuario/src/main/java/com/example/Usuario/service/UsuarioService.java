@@ -28,4 +28,7 @@ public class UsuarioService {
     public String eliminarUsuario(int id) {
         return usuarioRepository.delete(id);
     }
+    public String modificarRol(int id, String rol) {
+        return usuarioRepository.updateRol(id, rol);
+    }
 }

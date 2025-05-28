@@ -5,6 +5,7 @@ import java.util.List;
 
 import org.springframework.stereotype.Repository;
 
+import com.example.Usuario.model.Roles;
 import com.example.Usuario.model.Usuario;
 
 @Repository
@@ -56,5 +57,18 @@ public class UsuarioRepository {
             return "Usuario no encontrado";
         }
 
+    }
+    public String updateRol(int id, String rol) {
+        Usuario usuario = this.read(id);
+        if (usuario != null) {
+            try {
+                usuario.setRol(Roles.valueOf(rol.toUpperCase()));
+                return "Rol actualizado correctamente";
+            } catch (IllegalArgumentException e) {
+                return "Rol no válido";
+            }
+        } else {
+            return "Usuario no encontrado";
+        }
     }
 }

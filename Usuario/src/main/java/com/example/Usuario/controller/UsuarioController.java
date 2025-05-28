@@ -49,4 +49,9 @@ public class UsuarioController {
     public String eliminarUsuario(@PathVariable int id) {
         return usuarioService.eliminarUsuario(id);
     }
+
+    @PutMapping("rol/{id}")
+    public String modificarRol(@PathVariable int id, @RequestBody String rol) {
+        return usuarioService.modificarRol(id, rol);
+    }
 }
