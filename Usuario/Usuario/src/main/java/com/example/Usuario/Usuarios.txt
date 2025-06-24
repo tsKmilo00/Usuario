@@ -1,0 +1,72 @@
+[
+  {
+    "rol": "VENDEDOR",
+    "rut": "12.345.678-9",
+    "nombre": "Carlos",
+    "apellido": "Méndez",
+    "email": "carlos.mendez@empresa.com"
+  },
+  {
+    "rol": "EMPLEADO",
+    "rut": "23.456.789-0",
+    "nombre": "Ana",
+    "apellido": "García",
+    "email": "ana.garcia@empresa.com"
+  },
+  {
+    "rol": "CLIENTE",
+    "rut": "34.567.890-1",
+    "nombre": "Roberto",
+    "apellido": "Fernández",
+    "email": "robertof@gmail.com"
+  },
+  {
+    "rol": "VENDEDOR",
+    "rut": "45.678.901-2",
+    "nombre": "María",
+    "apellido": "López",
+    "email": "maria.lopez@empresa.com"
+  },
+  {
+    "rol": "EMPLEADO",
+    "rut": "56.789.012-3",
+    "nombre": "Pedro",
+    "apellido": "Martínez",
+    "email": "pedro.martinez@empresa.com"
+  },
+  {
+    "rol": "CLIENTE",
+    "rut": "67.890.123-4",
+    "nombre": "Lucía",
+    "apellido": "Rodríguez",
+    "email": "lucia.rodriguez@personal.com"
+  },
+  {
+    "rol": "VENDEDOR",
+    "rut": "78.901.234-5",
+    "nombre": "Jorge",
+    "apellido": "Sánchez",
+    "email": "jorge.sanchez@empresa.com"
+  },
+  {
+    "rol": "EMPLEADO",
+    "rut": "89.012.345-6",
+    "nombre": "Sofía",
+    "apellido": "Pérez",
+    "email": "sofia.perez@empresa.com"
+  },
+  {
+    "rol": "CLIENTE",
+    "rut": "90.123.456-7",
+    "nombre": "Diego",
+    "apellido": "Gómez",
+    "email": "diego.gomez@outlook.com"
+  },
+  {
+    "rol": "CLIENTE",
+    "rut": "01.234.567-8",
+    "nombre": "Valentina",
+    "apellido": "Hernández",
+    "email": "valentina.h@gmail.com"
+  }
+]

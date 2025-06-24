@@ -2,7 +2,6 @@ package com.example.Usuario.model;
 
 import lombok.Data;
 import lombok.NoArgsConstructor;
-import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.EnumType;
 import jakarta.persistence.Enumerated;
@@ -22,13 +21,9 @@ public class Usuario {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
-
     @Enumerated(EnumType.STRING)
     private Roles rol;
-
-    @Column(nullable = false, unique = true)
     private String rut;
-
     private String nombre;
     private String apellido;
     private String email;
